@@ -1,0 +1,96 @@
+body{
+    background-color: #f8f8f8;
+}
+.seckill-title{
+    background: url(../imgs/theme.jpg) no-repeat ;
+    height: 184px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.seckilling{
+    background-color: red;
+    height: 50px;
+    width: 530px;
+    position: absolute;
+    top: -70px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    transform: skewX(-40deg);
+    left: 10px;
+}
+.seckilling span{
+    display: inline-block;
+    transform: skewX(40deg);
+    color: #fff;
+    cursor: pointer;
+}
+.willseckilling{
+    left: 543px;
+    background-color: silver;
+    cursor: pointer;
+}
+.section-box{
+    width: 100%;
+}
+.section{
+    width: 1060px;
+    /* min-height: 500px; */
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+    position: relative;
+}
+.seckill-goods{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.seckill-goods:nth-of-type(4n){
+    margin-right: 0;
+}
+.seckill-goods>a{
+    position: relative;
+}
+.seckill-goods>a span{
+    display: block;
+    height: 40px;
+    width: 250px;
+    background: url(../imgs/timelogo.png) no-repeat 4px 7px;
+    background-color: red;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    /* text-indent: 3px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             */
+    /* font-weight: bold; */
+   
+}
+.seckill-goods .price{
+    height: 120px;
+    width: 250px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 15px 25px ;
+    font-size: 16px;
+}
+.seckill-goods .price p{
+    text-align: center;
+    margin: 5px 0;
+}
+.seckill-goods .price p:nth-of-type(3){
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 0;
+    color: #fff;
+    cursor: pointer;
+}
+.explain{
+    height: 280px;
+    width:100%;
+    background: url(../imgs/explain.jpg) no-repeat center;
+}

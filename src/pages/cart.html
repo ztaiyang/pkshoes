@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的购物车</title>
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/share.css">
+    <!-- <link rel="stylesheet" href="../sass/cart.css"> -->
+    <link rel="stylesheet" href="../css/share-head.css">
+    <link rel="stylesheet" href="../css/share-footer.css">
+    <script src="../libs/jquery.js"></script>
+    <script src="../js/share_head.js"></script>
+    <script src="../libs/jquery.cookie.js"></script>
+    <script src="../js/cart.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="head-box">
+        <div class="header">
+            <div class="head-main main">
+                <ul class="hm-ul .clearfix" >
+                    <div class='ul-left'>
+                    </div>
+                    <div class='ul-cen'>
+                        <li class='all-goods'>
+                            <a href="" ><span>所有商品</span></a>
+                            <ol class='menu-first menu'>
+                                <div class="menu-main main clearfix">
+                                    <div class='menu-shop-all'>
+                                        <li><a href=""  >最新活动</a></li>
+                                        <li><a href="">新品上市</a></li>
+                                        <li><a href="">热门商品</a></li>
+                                        <li><a href="">特惠商品</a></li>
+                                        <li><a href="">新闻活动</a></li>
+                                    </div>
+                                   
+                                    <div class='menu-shop-all'>
+                                        <li><a href="">男鞋</a></li>
+                                        <li><a href="">篮球鞋</a></li>
+                                        <li><a href="">跑步鞋</a></li>
+                                        <li><a href="">板鞋</a></li>
+                                        <li><a href="">休闲鞋</a></li>
+                                        <li><a href="">网球鞋</a></li>
+                                        <li><a href="">户外鞋</a></li>
+                                        <li><a href="">棉鞋</a></li>
+                                    </div>
+                                    <div class='menu-shop-all'>
+                                        <li><a href="">女鞋</a></li>
+                                        <li><a href="">篮球鞋</a></li>
+                                        <li><a href="">跑步鞋</a></li>
+                                        <li><a href="">板鞋</a></li>
+                                        <li><a href="">休闲鞋</a></li>
+                                        <li><a href="">网球鞋</a></li>
+                                        <li><a href="">户外鞋</a></li>
+                                        <li><a href="">棉鞋</a></li>
+                                    </div>
+                                    <div class='menu-shop-all'>
+                                        <li><a href="">男装</a></li>
+                                        <li><a href="">羽绒服</a></li>
+                                        <li><a href="">棉衣</a></li>
+                                        <li><a href="">篮球服</a></li>
+                                        <li><a href="">卫衣</a></li>
+                                        <li><a href="">风衣</a></li>
+                                        <li><a href="">运动长裤</a></li>
+                                        <li><a href="">运动夹克</a></li>
+                                        <li><a href="">长袖T恤</a></li>
+                                        <li><a href="">短袖T恤</a></li>
+                                        <li><a href="">单裤</a></li>
+                                        <li><a href="">单衣</a></li>
+                                        <li><a href="">运动短裤</a></li>
+                                    </div>
+                                    <div class='menu-shop-all'>
+                                        <li><a href="">女装</a></li>
+                                        <li><a href="">羽绒服</a></li>
+                                        <li><a href="">棉衣</a></li>
+                                        <li><a href="">篮球服</a></li>
+                                        <li><a href="">卫衣</a></li>
+                                        <li><a href="">风衣</a></li>
+                                        <li><a href="">运动长裤</a></li>
+                                        <li><a href="">运动夹克</a></li>
+                                        <li><a href="">长袖T恤</a></li>
+                                        <li><a href="">短袖T恤</a></li>
+                                        <li><a href="">单裤</a></li>
+                                        <li><a href="">单衣</a></li>
+                                        <li><a href="">运动短裤</a></li>
+                                    </div>
+                                    <div class='menu-shop-all'>
+                                        <li><a href="">配件/装备</a></li>
+                                        <li><a href="">运动袜</a></li>
+                                        <li><a href="">运动帽</a></li>
+                                        <li><a href="">篮球</a></li>
+                                        <li><a href="">其他</a></li>
+                                        <li><a href="">儿童</a></li>
+                                        <li><a href="">童鞋</a></li>
+                                        <li><a href="">童装</a></li>
+                                    </div>
+                                </div>
+                            </ol>
+                        </li>
+                        <li class='basketball'>
+                            <a href="" ><span>篮球</span></a>
+                            <ol class='menu menu-second'>
+                                <div class="menu-main main clearfix">
+                                    <div class='menu-shop-all'>
+                                        <li><a href="">鞋类</a></li>
+                                        <li><a href="">专业篮球鞋</a></li>
+                                        <li><a href="">明星篮球鞋</a></li>
+                                        <li><a href="">外场篮球鞋</a></li>
+                                        
+                                    </div>
+                                   
+                                    <div class='menu-shop-all'>
+                                        <li><a href="">服装</a></li>
+                                        <li><a href="">篮球套服</a></li>
+                                        <li><a href="">上衣</a></li>
+                                        <li><a href="">裤子</a></li>
+                                        
+                                    </div>
+                                    <div class='menu-shop-all'>
+                                        <li><a href="">科技</a></li>
+                                        <li><a href="">三级缓震</a></li>
+                                        <li><a href="">梯度双能</a></li>
+                                        <li><a href="">足弓TPU</a></li>
+                                        <li><a href="">易弯折系统</a></li>
+                                        <li><a href="">轻质橡胶</a></li>
+                                       
+                                    </div>
+                                </div>
+                            </ol>
+                        </li>
+                        <li class='running'>
+                            <a href="" ><span>跑步</span></a>
+                            <ol class='menu menu-third'>
+                                <div class="menu-main main clearfix">
+                                    <div class='menu-shop-all'>
+                                        <li><a href="">男子跑步</a></li>
+                                        <li><a href="">跑步鞋</a></li>
+                                        <li><a href="">运动上衣</a></li>
+                                        <li><a href="">运动裤</a></li>
+                                       
+                                    </div>
+                                   
+                                    <div class='menu-shop-all'>
+                                        <li><a href="">女子跑步</a></li>
+                                        <li><a href="">跑步鞋</a></li>
+                                        <li><a href="">运动上衣</a></li>
+                                        <li><a href="">运动裤</a></li>
+                                    </div>
+                                    <div class='menu-shop-all'>
+                                        <li><a href="">明星系列</a></li>
+                                        <li><a href="">悦跑系列</a></li>
+                                        <li><a href="">箭雨系列</a></li>
+                                       
+                                    </div>
+                                </div>
+                            </ol>
+
+                        </li>
+                        <li><a href=""><span>新品</span></a></li>
+                        <li><a href=""><span>企业团购</span></a></li>
+                        <li><a href=""><span>大码鞋</span></a></li>
+                        <li><a href=""><span>态极</span></a></li>
+                        <li><a href="./seckill.html" style="color: red;"><span>秒杀</span></a></li>
+                    </div>
+                    <div class='ul-right'>
+                        <div class='ul-right-top clearfix'>
+                            <div class='nav'>
+                                <a href="./login-register.html" class='please-login' style="color: red;">请登录</a>
+                                <span>|</span>
+                                <a href="./cart.html " class='go-to-cart' style="color: red;">购物车</a>
+                                <span>|</span>
+                                <a href="">我的订单</a>
+                                <span>|</span>
+                                <a href="">网站导航</a>
+                                <span>|</span>
+    
+                                <a href="">联系客服</a>
+                                <span>|</span>
+                                <img src="../imgs/icon_phone.png" alt="">
+                                <span>手机版</span>
+                            </div>
+                        </div>
+                        <div class="ul-right-bottom">
+                            <div class='search-box'>
+                                <input type="text">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+               
+            </div>
+        </div>
+    </div>
+    <div class="tab-box main">
+        <table>
+            <caption>我的购物车</caption>
+            <thead>
+                <th>商品id</th>
+                <th>商品名称</th>
+                <th>商品图片</th>
+                <th>订单数量</th>
+                <th>商品价格</th>
+                <th>操作</th>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td>12121</td>
+                    <td><span>鞋子</span></td>
+                    <td ><img class='cart-img' src="../imgs/shoes-22.jpg" alt=""></td>
+                    <td><span>22</span></td>
+                    <td>￥300</td>
+                    <td><span class='add-goods'>+</span><span class='sub-goods'>-</span></td>
+                </tr> -->
+               
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="footer">
+        <div class="foot-main main clearfix">
+            <div class="foot-img">
+                <img src="../imgs/foot-icon1.png" alt="">
+                <span>防伪查询</span>
+            </div>
+            <div class="foot-img">
+                <img src="../imgs/foot-icon2.png" alt="">
+                <span>满999包邮</span>
+            </div>
+            <div class="foot-img">
+                <img src="../imgs/foot-icon3.png" alt="">
+                <span>七天无理由退货</span>
+            </div>
+            <div class="foot-img">
+                <img src="../imgs/foot-icon4.png" alt="">
+                <span>品牌直营</span>
+            </div>
+            <div class="foot-img">
+                <img src="../imgs/foot-icon5.png" alt="">
+                <span>团购服务</span>
+            </div>
+        </div>
+    </div>
+    <div class="copy">
+        <div class="copy-main main ">
+            <div class="honer clearfix">
+                <div class="ship-link">
+                    <a href="#">购物相关</a>
+                    <a href="#">新手帮助</a>
+                    <a href="#">购物指南</a>
+                </div>
+                <div class="ship-link">
+                    <a href="#">售后服务</a>
+                    <a href="#">正品验证</a>
+                    <a href="#">退货换货</a>
+                    <a href="#">查看物流</a>
+                </div>
+                <div class="ship-link">
+                    <a href="#">会员服务</a>
+                    <a href="#">关于抵用卷</a>
+                    <a href="#">积分规则</a>
+                </div>
+                <div class="ship-link">
+                    <a href="#">友情链接</a>
+                    <a href="#">匹克官网</a>
+                    <a href="#">匹克补货</a>
+                    <a href="#">匹克团购通</a>
+                    <a href="#">匹克校服</a>
+                    <a href="#">匹克品牌</a>
+                </div>
+                <div class="ship-link">
+                    <a href="#">服务热线</a>
+                    <a href="#">售前：0595-2275 0137</a>
+                    <a href="#">售后：400-884-8840</a>
+                    <a href="#">工作日:9:00-23:00(节假日不休息)</a>
+                </div>
+                <div class="vip">
+                    <p>VIP粉丝群</p>
+                    <p class='second'>
+                        <a href="#">福利|</a>
+                        <a href="#">活动|</a>
+                        <a href="#">新品</a>
+                    </p>
+                    <div class='join-in'>立即加入</div>
+                </div>
+                <div class='qq-img'>
+                    <img src="../imgs/foot-qq.png" alt="">
+                </div>
+               
+                <div class='connect-img'>
+                    <img src="../imgs/erweima.jpg" alt="">
+                    <a href="#">匹克微服务</a>
+                </div>
+                <div class='connect-img'>
+                    <img src="../imgs/erweima.jpg" alt="">
+                    <a href="#">
+                        匹克官方商城
+                    </br>
+                        微信公众号
+                    </a>
+                </div>
+            </div>
+            <div class="copy-footer clearfix">
+                <a href="#"><img src="../imgs/morelogo6.png" alt=""></a>
+                <a href="#"><img src="../imgs/foot-website2.jpg" alt=""></a>
+                <a href="#"><img src="../imgs/baozhang.bmp" alt=""></a>
+                <a href="#"><img src="../imgs/xchinapay.png" alt=""></a>
+                <a href="javascrit:;" style="margin-right: 0;">Copyright© 2014</a>
+                <a href="">2014-匹克网方网店</a>
+                <a href="javascrit:;" style="margin-right: 10px;">版权所有 | 闽ICP备11009488号-1</a>
+                <a href="" style="margin-right: 0;">移动统计</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

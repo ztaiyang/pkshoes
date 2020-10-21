@@ -1,0 +1,94 @@
+[
+    
+{
+    "id":"aaa1",
+    "path":"../imgs/shoes-1.jpg",
+    "p":"男子匹克跑鞋1号",
+    "span1":"￥299",
+    "span2":"￥350"
+},
+{
+    "id":"aaa2",
+    "path":"../imgs/shoes-2.jpg",
+    "p":"男子匹克跑鞋2号",
+    "span1":"￥240",
+    "span2":"￥330"
+},
+{
+    "id":"aaa3",
+    "path":"../imgs/shoes-3.jpg",
+    "p":"男子匹克跑鞋3号",
+    "span1":"￥299",
+    "span2":"￥350"
+},
+{
+    "id":"aaa4",
+    "path":"../imgs/shoes-4.jpg",
+    "p":"男子匹克跑鞋4号",
+    "span1":"￥600",
+    "span2":"￥800"
+},
+{
+    "id":"aaa5",
+    "path":"../imgs/shoes-5.jpg",
+    "p":"男子匹克跑鞋5号",
+    "span1":"￥128",
+    "span2":"￥235"
+},
+{
+    "id":"aaa6",
+    "path":"../imgs/shoes-6.jpg",
+    "p":"男子匹克跑鞋6号",
+    "span1":"￥198",
+    "span2":"￥440"
+},
+{
+    "id":"aaa7",
+    "path":"../imgs/shoes-7.jpg",
+    "p":"男子匹克跑鞋7号",
+    "span1":"￥440",
+    "span2":"￥500"
+},
+{
+    "id":"aaa8",
+    "path":"../imgs/shoes-8.jpg",
+    "p":"男子匹克跑鞋8号",
+    "span1":"￥88",
+    "span2":"￥120"
+},
+{
+    "id":"aaa9",
+    "path":"../imgs/shoes-9.jpg",
+    "p":"男子匹克跑鞋9号",
+    "span1":"￥133",
+    "span2":"￥200"
+},
+{
+    "id":"aaa10",
+    "path":"../imgs/shoes-10.jpg",
+    "p":"男子匹克跑鞋10号",
+    "span1":"￥660",
+    "span2":"￥720"
+},
+{
+    "id":"aaa11",
+    "path":"../imgs/shoes-11.jpg",
+    "p":"男子匹克跑鞋11号",
+    "span1":"￥300",
+    "span2":"￥320"
+},
+{
+    "id":"aaa12",
+    "path":"../imgs/shoes-12.jpg",
+    "p":"男子匹克跑鞋12号",
+    "span1":"￥178",
+    "span2":"￥210"
+},
+{
+    "id":"aaa13",
+    "path":"../imgs/shoes-13.jpg",
+    "p":"男子匹克跑鞋13号",
+    "span1":"￥670",
+    "span2":"￥740"
+}
+]

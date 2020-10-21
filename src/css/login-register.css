@@ -1,0 +1,165 @@
+.section-container{
+    box-sizing: border-box;
+    padding-top: 40px;
+    background-color:#fff;
+    padding-bottom:150px;
+   
+}
+.cdb{
+    height: 20px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.login-left{
+    width: 49%;
+    float: left;
+    height: 300px;
+   padding-bottom: 150px;
+    border-right: 1px solid #ccc;
+}
+.login-left>div{
+    width: 154px;
+    margin: 0 auto;
+}
+.second{
+    display: none;
+}
+.login-left>div p:nth-of-type(1){
+    color: #333;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-left>div p:nth-of-type(2){
+   
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-left>div p:nth-of-type(2) a{
+    color: #666;
+    text-decoration: underline;
+    
+}
+.login-left>div p:nth-of-type(2) a:hover{
+    color: #c00;
+}
+.login-left>div p:nth-of-type(3){
+    color: #333;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-left>div p:nth-of-type(4){
+   
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-left>div p:nth-of-type(4) a{
+    color: #666;
+    text-decoration: underline;
+    
+}
+.login-left>div p:nth-of-type(4) a:hover{
+    color: #c00;
+}
+
+
+
+
+
+
+
+
+
+
+
+.login-left>div p:nth-last-child(3){
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-left>div p:nth-last-child(3) img{
+   width: 154px;
+}
+.login-left>div p:nth-last-child(2){
+    font-size: 12px;
+    text-align: center;
+    color: red;
+    margin-bottom: 4px;
+}
+.login-left>div p:nth-last-child(1){
+    font-size: 12px;
+    text-align: center;
+    color: #585858;
+}
+.login-right{
+    width: 49%;
+    float: right;
+    /* background-color: beige; */
+}
+.login-right>div{
+    width: 320px;
+    margin: 0 auto;
+}
+.login-right>div p:nth-of-type(1){
+    font-size: 22px;
+    color: #333;
+}
+.login-right>div input{
+    height: 40px;
+    width: 320px;
+    border: 1px solid#c7c6c6;
+    padding: 3px 5px;
+    margin-top: 15px;
+}
+.login-right .bg-b{
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.login-right>div a{
+    color: #999;
+    font-size: 12px;
+    text-decoration: underline;
+}
+/* .login{
+    display: none;
+} */
+.register{
+    display: none;
+}
+.register .tt{
+    color: #999;
+    font-size: 12px;
+    padding-top: 15px;
+}
+.register .checkbox{
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+}
+
+.register .checkbox+span{
+    font-size: 12px;
+}
+.register{
+    position: relative;
+}
+.register p:nth-of-type(3) span{
+    position: absolute;
+    top: 112px;
+    right: 207px;
+    border: 1px solid #333;
+    background: #c7c6c6;
+    text-align: center;
+    padding: 5px;
+    color:red;
+    transform: skewX(-15deg);
+    cursor: pointer;
+}

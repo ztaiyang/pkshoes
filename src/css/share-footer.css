@@ -1,0 +1,110 @@
+.main{
+    width: 1220px;
+    margin: 0 auto;
+   
+}
+.footer{
+    background-color: #f4f4f4;
+}
+.foot-main{
+    min-height: 113px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 30px 24px 0;
+}
+.foot-img{
+    padding: 0 31px;
+    float: left;
+    border-right: 1px solid #c7c6c6;
+   
+}
+.foot-img span{
+    font-size: 24px;
+    color: #585855;
+    padding-left: 12px;
+}
+.foot-main .foot-img:last-of-type{
+    border: none;
+} 
+.copy{
+    background-color: #000;
+}
+.copy-main{
+    /* min-height: 320px; */
+    background-color:black;
+    box-sizing: border-box;
+    padding:40px 30px ;
+
+}
+.honer{
+    border-bottom: 1px solid #3e3e3e;
+    padding-bottom: 40px;
+}
+.copy-main .ship-link{
+    float: left;
+    padding-right: 30px;
+}
+.copy-main .ship-link a{
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+
+}
+.copy-main .vip{
+    float: right;
+}
+.vip>p{
+    margin-bottom: 10px;
+}
+.vip p:nth-child(1){
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+}
+.vip .second a{
+    color: red;
+    font-size: 14px;
+}
+.copy-main .vip .join-in{
+    background-color: red;
+    border-radius: 15px;
+    color: 16px;
+    color: #fff;
+    line-height: 15px;
+    text-align: center;
+    font-size: 14px;
+    padding: 3px;
+    width: 70%;
+    cursor: pointer;
+}
+.copy-main .qq-img{
+    float: right;
+    margin-right: 15px;
+    position: relative;
+    top: 12px;
+}
+.copy-main .connect-img{
+    float: right;
+    margin-right: 15px;
+}
+.copy-main .connect-img a{
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.copy-footer>a{
+    display:inline-block ;
+    margin-right: 25px;
+    margin-top: 48px;
+    font-size: 12px;
+    color: #fff;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: top;
+}
+.copy-footer>a img{
+    height: 32px;
+}

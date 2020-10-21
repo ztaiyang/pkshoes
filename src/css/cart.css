@@ -1,0 +1,52 @@
+.tab-box {
+  min-height: 500px;
+  padding-top: 60px;
+}
+
+.tab-box > table {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tab-box > table caption {
+  font-size: 26px;
+  color: #000;
+  font-weight: bold;
+  line-height: 48px;
+}
+
+.tab-box > table th {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.tab-box > table tr {
+  font-size: 16px;
+}
+
+.tab-box > table .cart-img {
+  height: 120px;
+}
+
+.tab-box > table .add-goods {
+  float: left;
+  padding: 5px 10px;
+  background-color: red;
+  cursor: pointer;
+}
+
+.tab-box > table .del {
+  float: left;
+  cursor: pointer;
+  background-color: darkgray;
+  padding: 5px 10px;
+}
+
+.tab-box > table .sub-goods {
+  float: left;
+  padding: 5px 10px;
+  background-color: red;
+  cursor: pointer;
+}

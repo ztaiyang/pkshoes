@@ -1,0 +1,193 @@
+
+.head-box{
+    position: relative;
+    /* border-bottom: 2px solid #fff; */
+    /* padding-bottom: 3px; */
+   
+}
+.header{
+    width: 100%;
+    background-color:#fff;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+}
+.header,.head-main,.head-box{
+    height: 80px;
+}
+.head-main{
+    padding: 0 30px;
+}
+.main{
+    width: 1220px;
+    margin: 0 auto;
+   
+}
+a{
+    cursor: pointer;
+}
+.hm-ul{
+    width: 1220px;
+}
+.ul-left,.ul-right,.ul-cen{
+    float: left;
+    height: 80px;
+}
+.ul-left{
+    width: 185px;
+    background: url(../imgs/logo.svg) center center no-repeat;
+    cursor: pointer;
+}
+.ul-cen li{
+    float: left;
+}
+.ul-cen li a{
+    display: block;
+    float: left;
+    font-size: 17px;
+    padding: 0 17px;
+    height: 80px;
+    line-height: 110px;
+    color: #000;
+}
+.ul-cen>li>a:hover span{
+   
+    border-bottom: 2px solid red;
+    padding-bottom: 13px;
+    /* text-decoration: underline;
+    color: tomato; */
+}
+.ul-right{
+    position: relative;
+    
+}
+.ul-right-top{
+    padding-top: 0.8em;
+    cursor: pointer;
+}
+.nav{
+    float: right;
+    font-size: 12px;
+    color: #000;
+}
+.nav a{
+    color: #000;
+    padding-left:0.5em ;
+    padding-right:0.5em ;
+    float: left;
+}
+.nav span{
+    float: left;
+}
+.nav img{
+    float: left;
+    margin: 0 5px;
+}
+.ul-right-bottom{
+    position: relative;
+    padding-top: 0.3em;
+}
+.search-box input{
+    height: 30px;
+    width: 230px;
+    float: right;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    
+}
+.search-box span{
+    display: block;
+    height: 30px;
+    width: 30px;
+    /* float:right; */
+    position: absolute;
+    right: 0;
+  
+    background: url(../imgs/icon-seach.png) no-repeat center red;
+}
+.menu{
+    position: fixed;
+    z-index: 19;
+    width: 100%;
+    top: 82px;
+}
+.second-menu{
+    /* min-height: 300px; */
+    background-color: #fff;
+    /* position: fixed; */
+   
+   
+    padding-bottom: 80px;
+    box-shadow: 0 5px 21px 0px #e4e4e4 inset;
+}
+.all-goods,.basketball,.running{
+    position: relative;
+}
+.menu{
+    width: 1876%;
+   /* border-top:3px solid #fff; */
+    position: absolute;
+    top: 80px;
+    left: -534px;
+    background-color: #fff;
+    box-shadow: 0 5px 21px 0px #e4e4e4 inset;
+}
+/* .menu-main{
+    width: 100%;
+} */
+
+
+.menu-first{
+    display: none;
+}
+.menu-second{
+    width: 2798%;
+    left: -627px;
+    display: none;
+    /* left: 300px; */
+    /* left: -420%; */
+}
+.menu-third{
+    display: none;
+    width: 2798%;
+    left: -697px;
+    
+}
+.menu-shop-all{
+    /* position: absolute; */
+    float: left;
+    padding-right: 135px;
+}
+
+.menu-shop-all li{
+    float: none;
+    margin-bottom: 5px;
+}
+ .menu-shop-all li a{
+    padding: 0;
+    color: #000;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid transparent;
+    padding-bottom: 2px;
+    height: auto;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.menu-shop-all li a:hover{
+    border-bottom: 1px solid red;
+   
+}
+.menu-main .menu-shop-all li:first-of-type a{
+    padding: 15px 0;
+    margin-bottom: 10px;
+    
+}
+.menu-shop-all li:first-of-type a{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}

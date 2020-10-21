@@ -1,0 +1,47 @@
+.tab-box{
+    min-height: 500px;
+    // background-color: antiquewhite;
+    padding-top: 60px;
+    >table{
+        caption{
+            font-size: 26px;
+            color: #000;
+            font-weight: bold;
+            line-height: 48px;
+        }
+        th{
+            font-size: 20px;
+            line-height: 40px;
+        }
+        tr{
+            font-size: 16px;
+            
+        }
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        .cart-img{
+            height: 120px;
+        }
+        .add-goods{
+            float: left;
+            padding: 5px 10px;
+            background-color: red;
+            cursor: pointer;
+        }
+       
+        .del{
+            float: left;
+            cursor: pointer;
+            background-color: darkgray;
+            padding: 5px 10px;
+        }
+        .sub-goods{
+            float: left;
+            padding: 5px 10px;
+            background-color: red;
+            cursor: pointer;
+        }
+    }
+}
