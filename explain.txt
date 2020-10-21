@@ -1,0 +1,16 @@
+前提条件：
+是事先建立两个数据库，shop(空的),user(含有一张userinfo表)(建议手动建立)
+userinfo：
+CREATE TABLE userinfo (
+			user_tele VARCHAR(11) not null ,
+			psd VARCHAR(300) NOT NULL)
+
+shop：就是用原来的接口建的：
+_connect.php(连接数据库),connect.php(连接的是shop小仓库),create_database.php(创建的是shop仓库)
+
+shop：存储的是每一个用户的购物车数据，注册帐号成功后,会自动请求shop建立cart_用户帐号的表，例(cart_13245673245)
+
+user下就一张表，userinfo，存储帐号和密码。
+
+总结重要>>>事先手动建立一个shop数据库(空的就行)，再建立一个user数据库，user里有一张表userinfo（user_tele VARCHAR(11) not null ,psd VARCHAR(300) NOT NULL)）然后项目就没有问题
+>>>>如果运行接口建立可能有问题(接口有点多，前面的接口也改了点)。
